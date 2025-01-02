@@ -1,0 +1,11 @@
+
+@import "/node_modules/@alaskaairux/design-tokens/dist/tokens/SCSSVariables"; // Auro design tokens as SCSS variables, required to use WCSS (Web Core Style Sheets) https://alaskaairlines.github.io/WebCoreStyleSheets/
+@import "/node_modules/@alaskaairux/design-tokens/dist/tokens/SassCustomProperties"; // Auro design tokens as CSS Custom Properties, used by auro-* components
+
+@import "/node_modules/@alaskaairux/webcorestylesheets/dist/breakpoints";
+@import "/node_modules/@alaskaairux/webcorestylesheets/dist/fonts";
+@import "/node_modules/@alaskaairux/webcorestylesheets/dist/normalize";
+@import "/node_modules/@alaskaairux/webcorestylesheets/dist/essentials";
+@import "/node_modules/@alaskaairux/webcorestylesheets/dist/headings";
+@import "/node_modules/@alaskaairux/webcorestylesheets/dist/utilityClasses";
+
