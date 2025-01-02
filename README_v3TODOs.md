@@ -12,7 +12,29 @@ The bootstrapped v2 project used node Semantic Release with Conventional Commits
 
 ### Add "Skip to" link option for keyboard navigators/traversal
 
+### Browser sync is enabled. (applicable to v2 CRA build only ???)
 
+  * I think Browser sync is handled by Vite now, but double check the use of Browser sync with CRA to determine next steps that may be needed. I am guessing Vite just uses it's own HMR (Hot Module Reloading) to replace Browser sync so confirm the use/non-use of Browser sync and update these notes
+
+
+## Unit testing
+| Command | Description
+|---|---
+| npm test  | Launches the unit test runner in the interactive watch mode // TODO: set up Vite unit testing, NOT SET UP YET
+
+  * Checkout Auro's Automated Testing and run it in a Chrome browser
+  * Unit testing made easy look into @open-wc/testing and @web/test-runner @ https://auro.alaskaair.com/generator.
+
+
+## DONE - Auro Demo v2 Production build was failing TODO's
+
+  <!--
+  create optimized production build
+  // the original v2 CRA build failed with errors
+
+  customize Vite build in vite.config.mjs
+  // env. build variances have dependency on server/host options available, create dynamic env. build files to sue env. variables for both development and production build
+  -->
 
 
 ## Build TODO's:
@@ -20,8 +42,6 @@ The bootstrapped v2 project used node Semantic Release with Conventional Commits
 The v2 build had many errors, unsupported packages, and vulnerabilities until I made significant amount of updates to node packages and files during the migration to Vite. Vite has it's own set of issues, and the migration of Sass and Vite resulted in some outstanding warnings that need to be individually addressed to resolve several warnings in both the local terminal output and dev tools console in browser.
 
 After migration and release of v3, there are still a few build issues to research and resolve.
-
-
 
 
 ### * Terminal console warning TODO's:

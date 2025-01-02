@@ -1,9 +1,22 @@
 # Migration details outlining the steps taken to upgrade to Auro Demo v3 from Auro Demo v2
 
-T
+The initial experience getting started using the Auro Demo v2 as a scaffold project proved frustrating because the project had many errors running it locally. I researched all the issues to get the project running locally. Next I used it as a learning opportunity to demonstrate the need to improve documentation and update dependencies or other aspects of the source code or files in order to run the Auro Demo v2 project locally without errors. This process and steps taken to migrate the Auro Demo v2 project to Vite/React v19 build while remaining compatible with the Auro Design System.
+
+This demo project had to be migrated to Vite because it was originally created with Create React App, CRA, and CRA has been deprecated.
+
+This readme file includes setup instructions and extra info needed or steps taken to replace outdated methods for SASS and other improvements to documentation or source code required for packages, functions, methods or other dependencies no longer supported.
+
+
+* Send any inquires via email to: inquiry.webwarrior@gmail.com
+
+
 ## Cloned the Auro Demo v2 repo the project would not build
 
+```bash
+git clone https://github.com/AlaskaAirlines/AuroReactDemo.git
+```
 - To get the project running without any build errors and/or vulnerabilities reported at build time in terminal output, and eliminate browser console errors I had to perform several additional changes and migrate to Vite
+
 
 
 ## Installed the alaska air ux and alaska air auro design system modules needed to to run the Auro Demo v2
@@ -255,6 +268,20 @@ render() {
 }
 ```
 
+
+
+### Vite does not have linting built-into it's CLI.
+
+  * ESLint was added to this version of Auro Demo to replace the built-in linting provided by the previous "CRA" bootstrapped project configuration
+
+    XX-done-review linting process, XX-done-maybe add a tool specifically for Vite? YES: The specific "Vite" version of ESLint was added to this Vite project:
+    Followed instructions in this article:
+    https://baisali-pradhan.medium.com/vite-eslint-the-perfect-duo-for-clean-and-efficient-web-development-bad349274eaa#:~:text=Essentially%20Vite's%20configuration%20file%2C%20called,our%20linting%20rules:%20touch%20.eslintrc
+
+    ```js
+    //vite-plugin-eslint
+    npm install vite-plugin-eslint --save-dev
+    ```
 
 
 NOTES: This project was based on the original "outdated" source CRA bootstrapped build not supported anymore
