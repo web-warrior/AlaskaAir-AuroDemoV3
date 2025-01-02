@@ -84,4 +84,4 @@ yarn-debug.log*
 yarn-error.log*
 
 package-lock.json
-README_*
+README_projectDetails*
