@@ -4,7 +4,7 @@
 
 Auro Demo v3 was created as a result of migrating the "Auro Demo v2" project to Vite/React v19 build. Auro v3 has additional web components and updated custom UI features implemented using the Auro Design System UI tokens and web components. Additional updates will be forthcoming.
 
-Auro Demo v2 project is a scaffold project outputs a simple single page demo of a few Auro Design System Web Components, that uses Sass, Lit (https://lit.dev/docs/), and Create React App.
+Auro Demo v2 project is a scaffold projecto of a simple single page demo that uses Sass and Create React App.
 
 * Send any inquires via email to: inquiry.webwarrior@gmail.com
 
