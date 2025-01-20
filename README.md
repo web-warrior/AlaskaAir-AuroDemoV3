@@ -43,7 +43,7 @@ https://eye-4design.org/AuroDemo/ - migrated/updated and maintained by Jenny M a
 
 View LIVE build of "Auro Demo v2 CRA/REACT build"
 
-https://auro-react-demo.surge.sh/  - created by Alaska Airlines in May of 2021, looks like a few updates were made recently (2024) after discovering the build was broken
+ - created by Alaska Airlines in May of 2021, a few updates were made recently (2024) after discovering the build was broken
 
 
 
