@@ -120,6 +120,8 @@ This project may or may not be updated at anytime and may be subjected to extens
 # Other References related to Auro Design System
 
 https://www.webcomponents.org/
+
 http://auro.alaskaair.com/support/browsersSupport
+
 https://sass-lang.com/documentation/breaking-changes/import/
 
