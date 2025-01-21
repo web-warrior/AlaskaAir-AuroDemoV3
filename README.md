@@ -2,13 +2,11 @@
 
 (v3 is based off Alaska Airlines' open source Auro Demo v2 build)
 
-Auro Demo v3 was created as a result of migrating the "Auro Demo v2" project to Vite/React v19 build. Auro v3 has additional web components and updated custom UI features implemented using the Auro Design System UI tokens and web components. Additional updates will be forthcoming.
+Auro Demo v3 was created as a result of migrating the "Auro Demo v2" project to Vite/React v19 build and adding Lit to build reusable components. Auro v3 will eventually have additional web components and a few custom UI features to demonstrate some unique use cases using the Auro Design System. Stay tuned for additional updates coming soon.
 
-Auro Demo v2 project is a scaffold projecto of a simple single page demo that uses Sass and Create React App.
+Auro Demo v2 project was created in 2021 by Alaska Airlines and is a scaffold project of a simple single page demo that uses Sass and Create React App.
 
-* Send any inquires via email to: inquiry.webwarrior@gmail.com
-
-
+* Send any inquires about Aruo Demo v3 to: inquiry.webwarrior@gmail.com
 
 
 
@@ -32,7 +30,7 @@ npm run start
 
 ### Live Auro Demo v3 VITE/REACT v19 Build
 
-View a LIVE v3 build of "Auro Demo v3 VITE/REACT v19 build"
+View a LIVE v3 build of "Auro Demo v3" that uses VITE/REACT v19 build with SASS/SCSS and Lit.
 
 https://eye-4design.org/AuroDemo/ - migrated/updated and maintained by Jenny M as of 1/1/2025, and is used for research and reference purposes
 
@@ -43,7 +41,7 @@ https://eye-4design.org/AuroDemo/ - migrated/updated and maintained by Jenny M a
 
 View LIVE build of "Auro Demo v2 CRA/REACT build"
 
- - created by Alaska Airlines in May of 2021, a few updates were made recently (2024) after discovering the build was broken
+ - created by Alaska Airlines in May of 2021, a few updates were made recently in 2024 to fix the demo build that I discovered was broken when I was asked to try it out.
 
 
 
@@ -52,7 +50,7 @@ View LIVE build of "Auro Demo v2 CRA/REACT build"
 
 The original app ran in all [supported browsers](http://auro.alaskaair.com/support/browsersSupport).
 
-*Disclaimer* Components in this revised/alternate v3 deployment may or may not be 100% compliant due to ongoing experimentation and testing this demo with the Auro Design System.
+*Disclaimer* Components in this revised/alternate v3 deployment may or may not be 100% a11y compliant due to ongoing experimentation and testing this demo with the Auro Design System.
 
 
 
