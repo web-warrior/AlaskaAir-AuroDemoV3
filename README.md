@@ -4,7 +4,7 @@
 
 Auro Demo v3 was created as a result of migrating the "Auro Demo v2" project to Vite/React v19 build and adding Lit to build reusable components. Auro v3 will eventually have additional web components and a few custom UI features to demonstrate some unique use cases using the Auro Design System. Stay tuned for additional updates coming soon.
 
-Auro Demo v2 project was created in 2021 by Alaska Airlines and is a scaffold project of a simple single page demo that uses Sass and Create React App.
+Auro Demo v2 project was created in 2021 by Alaska Airlines and is a scaffold project of a simple single page demo that uses the Auro Design System, Auro Design Tokens, SASS and Create React App.
 
 * Send any inquires about Aruo Demo v3 to: inquiry.webwarrior@gmail.com
 
