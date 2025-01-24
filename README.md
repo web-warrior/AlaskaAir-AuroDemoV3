@@ -1,6 +1,6 @@
 # Auro Demo v3 VITE/REACT v19 build
 
-(v3 is based off Alaska Airlines' open source Auro Demo v2 build)
+(v3 is based off Alaska Airlines open source Auro Demo v2 build)
 
 Auro Demo v3 was created as a result of migrating the "Auro Demo v2" project to Vite/React v19 build and adding Lit to build reusable components. Auro v3 will eventually have additional web components and a few custom UI features to demonstrate some unique use cases using the Auro Design System. Stay tuned for additional updates coming soon.
 
